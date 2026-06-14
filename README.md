@@ -1,4 +1,4 @@
-# Grade Calculator
+# Grade Calculator (Python practice)
 
 A simple Python program that calculates a student's grade based on marks.
 
