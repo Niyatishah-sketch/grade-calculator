@@ -1,13 +1,13 @@
-# grade-calculator
-Python tool to calculate student grades and GPA
+# Grade Calculator
+
+A simple Python program that calculates a student's grade based on marks.
 
 # Features
-- Enter marks for any number of subjects
-- Calculates percentage, grade (A+–F) and GPA
-- Saves a result report as a .txt file
+- Takes marks as input
+- Calculates grade using if-elif statements
+- Beginner-friendly Python project
 
-# How to run
-python grade_calculator.py
-
+# Technologies Used
+- Python 
 # Author
 Niyati Shah · B.Tech CSE · Indus University
