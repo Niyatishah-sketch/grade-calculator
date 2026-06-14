@@ -20,8 +20,8 @@ def get_grade(percentage):
         return "F"
 
 
-def get_gpa(percentage):
-    """Return GPA (0-10 scale) based on percentage."""
+def get_cgpa(percentage):
+    """Return CGPA (0-10 scale) based on percentage."""
     if percentage >= 90:
         return 10.0
     elif percentage >= 80:
@@ -34,7 +34,6 @@ def get_gpa(percentage):
         return 6.0
     else:
         return 0.0
-
 
 def get_remark(percentage):
     """Return a motivational remark based on performance."""
@@ -51,11 +50,9 @@ def get_remark(percentage):
     else:
         return "Failed. Don't give up - study harder!"
 
-
 def print_separator(char="-", length=45):
     print(char * length)
-
-
+    
 def main():
     print_separator("=")
     print("     STUDENT GRADE CALCULATOR")
@@ -63,19 +60,15 @@ def main():
     print_separator("=")
 
     # Get student name
-    name = input("\nEnter student name: ").strip()
+    name = input("\nEnter student name: ")
     if not name:
         name = "Student"
 
     # Get number of subjects
-    while True:
-        try:
             num_subjects = int(input("Enter number of subjects: "))
             if num_subjects <= 0:
                 print("Please enter a positive number.")
-            else:
-                break
-        except ValueError:
+            elif 
             print("Invalid input. Please enter a number.")
 
     # Collect marks for each subject
